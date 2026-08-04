@@ -1,5 +1,9 @@
 # 🕷️ Spider Theme Suite
 
+<p align="center">
+  <img src="icon.png" width="256" alt="Spider Theme Suite Logo" />
+</p>
+
 [![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/akilaisadev.spider-theme-suite)](https://marketplace.visualstudio.com/items?itemName=akilaisadev.spider-theme-suite)
 [![Rating](https://img.shields.io/visual-studio-marketplace/r/akilaisadev.spider-theme-suite)](https://marketplace.visualstudio.com/items?itemName=akilaisadev.spider-theme-suite)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
