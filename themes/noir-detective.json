@@ -27,7 +27,7 @@
     "number": "#D19A66",
     "operator": "#ABB2BF8C",
     "comment": {
-      "foreground": "#5C637073",
+      "foreground": "#5C6370",
       "fontStyle": "italic"
     },
     "decorator": "#C678DD",
@@ -50,12 +50,12 @@
     "editor.findMatchHighlightBackground": "#E5C07B30",
     "editor.findRangeHighlightBackground": "#E5C07B1A",
     "editorCursor.foreground": "#80C7FF",
-    "editorWhitespace.foreground": "#5C637020",
-    "editorIndentGuide.background": "#5C63701A",
+    "editorWhitespace.foreground": "#5C637040",
+    "editorIndentGuide.background": "#5C637020",
     "editorIndentGuide.activeBackground": "#5C637060",
     "editorBracketMatch.background": "#80C7FF30",
     "editorBracketMatch.border": "#80C7FF80",
-    "editorLineNumber.foreground": "#5C63704D",
+    "editorLineNumber.foreground": "#5C637073",
     "editorLineNumber.activeForeground": "#FFFFE0E6",
     "diffEditor.insertedTextBackground": "#98C3791A",
     "diffEditor.removedTextBackground": "#E06C751A",
@@ -112,7 +112,7 @@
         "punctuation.definition.comment"
       ],
       "settings": {
-        "foreground": "#5C637073",
+        "foreground": "#5C6370",
         "fontStyle": "italic"
       }
     },

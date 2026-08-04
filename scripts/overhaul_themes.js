@@ -89,7 +89,7 @@ function generateTheme(name, type, file, bgColors, overrideSyntax = {}) {
       "string": c.string,
       "number": c.number,
       "operator": op55,
-      "comment": { "foreground": c.comment + opacities.c45, "fontStyle": "italic" },
+      "comment": { "foreground": c.comment, "fontStyle": "italic" },
       "decorator": c.decorator,
       "namespace": c.namespace,
       "*.mutable": c.mutable
@@ -116,12 +116,12 @@ function generateTheme(name, type, file, bgColors, overrideSyntax = {}) {
       
       // Focus Cursor & Noise Reduction
       "editorCursor.foreground": c.function,
-      "editorWhitespace.foreground": `${c.comment}20`, // Almost invisible
-      "editorIndentGuide.background": `${c.comment}1A`,
+      "editorWhitespace.foreground": `${c.comment}40`, // Increased from 20 to 40 for faint visibility
+      "editorIndentGuide.background": `${c.comment}20`,
       "editorIndentGuide.activeBackground": `${c.comment}60`, // Highlight current indent
       "editorBracketMatch.background": `${c.function}30`,
       "editorBracketMatch.border": `${c.function}80`, // Match scope
-      "editorLineNumber.foreground": `${c.comment}4D`,
+      "editorLineNumber.foreground": `${c.comment}73`, // Increased opacity for line numbers
       "editorLineNumber.activeForeground": fg90,
 
       // Better Diff Theme
@@ -184,7 +184,7 @@ function generateTheme(name, type, file, bgColors, overrideSyntax = {}) {
       {
         "name": "Comments",
         "scope": ["comment", "punctuation.definition.comment"],
-        "settings": { "foreground": c.comment + opacities.c45, "fontStyle": "italic" }
+        "settings": { "foreground": c.comment, "fontStyle": "italic" }
       },
       // Adaptive Comments
       {
