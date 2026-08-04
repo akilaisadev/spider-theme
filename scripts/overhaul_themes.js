@@ -19,7 +19,7 @@ const syntaxColors = {
   string: "#98C379",
   number: "#D19A66",
   operator: "#ABB2BF", // Base operator color
-  comment: "#5C6370",
+  comment: "#8B95A5", // Greatly brightened for eye comfort (was #5C6370)
   decorator: "#C678DD",
   namespace: "#56B6C2",
   error: "#E06C75",
@@ -67,7 +67,7 @@ function generateTheme(name, type, file, bgColors, overrideSyntax = {}) {
   const fg85 = fg + opacities.c85;
   const kw70 = c.keyword + opacities.c70;
   const op55 = c.operator + opacities.c55;
-  const punc30 = c.operator + opacities.c30;
+  const punc85 = c.operator + opacities.c85; // Bumping from 30% to 85% opacity to fix invisible commas/brackets
   const class95 = c.class + opacities.c95;
 
   const themeObj = {
@@ -116,13 +116,13 @@ function generateTheme(name, type, file, bgColors, overrideSyntax = {}) {
       
       // Focus Cursor & Noise Reduction
       "editorCursor.foreground": c.function,
-      "editorWhitespace.foreground": `${c.comment}40`, // Increased from 20 to 40 for faint visibility
-      "editorIndentGuide.background": `${c.comment}20`,
-      "editorIndentGuide.activeBackground": `${c.comment}60`, // Highlight current indent
-      "editorBracketMatch.background": `${c.function}30`,
-      "editorBracketMatch.border": `${c.function}80`, // Match scope
-      "editorLineNumber.foreground": `${c.comment}73`, // Increased opacity for line numbers
-      "editorLineNumber.activeForeground": fg90,
+      "editorWhitespace.foreground": `${c.comment}60`, // Bumping opacity so it's clearly visible without straining
+      "editorIndentGuide.background": `${c.comment}40`, // Made indent guides more visible
+      "editorIndentGuide.activeBackground": `${c.comment}90`, // Highly visible active indent
+      "editorBracketMatch.background": `${c.function}40`,
+      "editorBracketMatch.border": `${c.function}A0`, // Stronger bracket match visibility
+      "editorLineNumber.foreground": `${c.comment}90`, // Extremely legible line numbers
+      "editorLineNumber.activeForeground": fg, // 100% foreground brightness for active line
 
       // Better Diff Theme
       "diffEditor.insertedTextBackground": `${c.success}1A`, // Subtle green bg
@@ -216,7 +216,7 @@ function generateTheme(name, type, file, bgColors, overrideSyntax = {}) {
       {
         "name": "Punctuation & Noise",
         "scope": ["punctuation", "meta.brace", "meta.delimiter", "keyword.operator"],
-        "settings": { "foreground": punc30 }
+        "settings": { "foreground": punc85 }
       },
       {
         "name": "Keywords",
