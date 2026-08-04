@@ -1,0 +1,96 @@
+{
+  "name": "spider-theme-suite",
+  "displayName": "Spider Theme Suite",
+  "description": "Minimalist, high-performance spider-inspired theme suite engineered for visual focus and eye comfort.",
+  "version": "1.0.0",
+  "publisher": "akilaisadev",
+  "author": {
+    "name": "Akila Wasalathilaka"
+  },
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "spider",
+    "theme",
+    "dark",
+    "semantic",
+    "cognitive",
+    "eye-care",
+    "accessible",
+    "oled",
+    "neon",
+    "galaxy",
+    "batman",
+    "flutter",
+    "dart",
+    "typescript",
+    "python"
+  ],
+  "galleryBanner": {
+    "color": "#1A1515",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Spider",
+        "uiTheme": "vs-dark",
+        "path": "./themes/akyyra-spiderman.json"
+      },
+      {
+        "label": "Night",
+        "uiTheme": "vs-dark",
+        "path": "./themes/akyyra-night.json"
+      },
+      {
+        "label": "Midnight",
+        "uiTheme": "vs-dark",
+        "path": "./themes/akyyra-midnight.json"
+      },
+      {
+        "label": "Focus (OLED)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/akyyra-oled.json"
+      },
+      {
+        "label": "Soft",
+        "uiTheme": "vs-dark",
+        "path": "./themes/akyyra-soft.json"
+      },
+      {
+        "label": "High Contrast",
+        "uiTheme": "hc-black",
+        "path": "./themes/akyyra-high-contrast.json"
+      },
+      {
+        "label": "Pastel",
+        "uiTheme": "vs-dark",
+        "path": "./themes/akyyra-pastel.json"
+      },
+      {
+        "label": "Neon Cyber",
+        "uiTheme": "vs-dark",
+        "path": "./themes/akyyra-neon.json"
+      },
+      {
+        "label": "Galaxy",
+        "uiTheme": "vs-dark",
+        "path": "./themes/akyyra-galaxy.json"
+      },
+      {
+        "label": "Dark Knight",
+        "uiTheme": "vs-dark",
+        "path": "./themes/akyyra-batman.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akilaisadev/spider-theme-suite"
+  }
+}
