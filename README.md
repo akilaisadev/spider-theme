@@ -1,7 +1,7 @@
 # 🕷️ Spider Theme Suite
 
 <p align="center">
-  <img src="icon.png" width="256" alt="Spider Theme Suite Logo" />
+  <img src="https://raw.githubusercontent.com/akilaisadev/spider-theme/master/icon.png" width="256" alt="Spider Theme Suite Logo" />
 </p>
 
 <p align="center">
@@ -10,8 +10,8 @@
 </p>
 
 <p align="center">
-  <a href="https://marketplace.visualstudio.com/items?itemName=akilaisadev.spider-theme-suite"><img src="https://img.shields.io/visual-studio-marketplace/i/akilaisadev.spider-theme-suite?style=flat-square&color=blue" alt="Installs"></a>
-  <a href="https://marketplace.visualstudio.com/items?itemName=akilaisadev.spider-theme-suite"><img src="https://img.shields.io/visual-studio-marketplace/r/akilaisadev.spider-theme-suite?style=flat-square&color=yellow" alt="Rating"></a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=AkilaWasalathilaka.spider-theme-suite"><img src="https://img.shields.io/visual-studio-marketplace/i/AkilaWasalathilaka.spider-theme-suite?style=flat-square&color=blue" alt="Installs"></a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=AkilaWasalathilaka.spider-theme-suite"><img src="https://img.shields.io/visual-studio-marketplace/r/AkilaWasalathilaka.spider-theme-suite?style=flat-square&color=yellow" alt="Rating"></a>
   <a href="https://github.com/akilaisadev/spider-theme/stargazers"><img src="https://img.shields.io/github/stars/akilaisadev/spider-theme?style=social" alt="Star Repository"></a>
   <a href="https://github.com/akilaisadev"><img src="https://img.shields.io/github/followers/akilaisadev?style=social" alt="Follow on GitHub"></a>
 </p>
