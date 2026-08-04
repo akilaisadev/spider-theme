@@ -286,54 +286,54 @@ function generateTheme(name, type, file, bgColors, overrideSyntax = {}) {
   fs.writeFileSync(path.join(themesDir, file), JSON.stringify(themeObj, null, 2));
 }
 
-// 1. Night
-generateTheme("Night", "dark", "akyyra-night.json", {
+// 1. Symbiote (formerly Night)
+generateTheme("Symbiote", "dark", "symbiote.json", {
   bg: "#1A1C23", sidebar: "#16181E", activityBar: "#111317", statusBar: "#0E0F12", fg: "#E5E0D8", selection: "#2E3440", lineHighlight: "#21242E"
-});
+}, { function: "#56B6C2", keyword: "#C678DD" }); // Added slight Venom Teal/Purple accents
 
-// 2. Midnight
-generateTheme("Midnight", "dark", "akyyra-midnight.json", {
+// 2. Absolute Carnage (formerly Midnight)
+generateTheme("Absolute Carnage", "dark", "absolute-carnage.json", {
   bg: "#111217", sidebar: "#0E0E12", activityBar: "#0A0B0E", statusBar: "#08090C", fg: "#E5E0D8", selection: "#20222B", lineHighlight: "#16181F"
-});
+}, { keyword: "#E25A5A", function: "#E06C75" }); // Carnage crimson tones
 
-// 3. Focus (OLED)
-generateTheme("Focus (OLED)", "dark", "akyyra-oled.json", {
+// 3. Brooklyn Anomaly (formerly Focus OLED)
+generateTheme("Brooklyn Anomaly", "dark", "brooklyn-anomaly.json", {
   bg: "#000000", sidebar: "#050505", activityBar: "#080808", statusBar: "#0A0A0A", fg: "#C8D0E0", selection: "#1A1A1A", lineHighlight: "#0F0F0F"
-});
+}, { keyword: "#FF0055", function: "#00E5FF" }); // Miles Morales Neon Red/Blue
 
-// 4. Soft
-generateTheme("Soft", "dark", "akyyra-soft.json", {
+// 4. Phantom Web (formerly Soft)
+generateTheme("Phantom Web", "dark", "phantom-web.json", {
   bg: "#282C34", sidebar: "#21252B", activityBar: "#1E2227", statusBar: "#181A1F", fg: "#ABB2BF", selection: "#3E4451", lineHighlight: "#2F333D"
-}, { function: "#56B6C2", string: "#89CA78", class: "#D55FDE", keyword: "#EF596F" });
+}, { function: "#56B6C2", string: "#89CA78", class: "#D55FDE", keyword: "#EF596F" }); // Spider-Gwen colors
 
-// 5. High Contrast
-generateTheme("High Contrast", "hc-black", "akyyra-high-contrast.json", {
+// 5. Noir Detective (formerly High Contrast)
+generateTheme("Noir Detective", "hc-black", "noir-detective.json", {
   bg: "#000000", sidebar: "#000000", activityBar: "#000000", statusBar: "#000000", fg: "#FFFFE0", selection: "#333333", lineHighlight: "#111111"
 }, { function: "#80C7FF", string: "#A3D98A", class: "#D4A5FF", keyword: "#FF8C9A" });
 
-// 6. Pastel
-generateTheme("Pastel", "dark", "akyyra-pastel.json", {
+// 6. Emerald Menace (formerly Pastel)
+generateTheme("Emerald Menace", "dark", "emerald-menace.json", {
   bg: "#2C313C", sidebar: "#252932", activityBar: "#20232A", statusBar: "#1B1E24", fg: "#D8DEE9", selection: "#404859", lineHighlight: "#363C49"
-}, { function: "#7EBDF5", string: "#A9D494", class: "#CFA0E6", keyword: "#E08F96" });
+}, { function: "#7EBDF5", string: "#A9D494", class: "#CFA0E6", keyword: "#A9D494" }); // Goblin Green/Purple
 
-// 7. Neon Cyber
-generateTheme("Neon Cyber", "dark", "akyyra-neon.json", {
+// 7. Year 2099 (formerly Neon Cyber)
+generateTheme("Year 2099", "dark", "year-2099.json", {
   bg: "#1E1032", sidebar: "#150A24", activityBar: "#0F071A", statusBar: "#0A0412", fg: "#E5E0D8", selection: "#3D2466", lineHighlight: "#2B1747"
 }, { function: "#00FFD1", string: "#39FF14", class: "#BF00FF", keyword: "#FF0055" });
 
-// 8. Galaxy
-generateTheme("Galaxy", "dark", "akyyra-galaxy.json", {
+// 8. Superior (formerly Galaxy)
+generateTheme("Superior", "dark", "superior.json", {
   bg: "#0F1423", sidebar: "#0A0D17", activityBar: "#070A12", statusBar: "#05070D", fg: "#D8DEE9", selection: "#212A45", lineHighlight: "#161D33"
-}, { function: "#64B5F6", string: "#81C784", class: "#BA68C8", keyword: "#E57373" });
+}, { function: "#E5C07B", string: "#81C784", class: "#BA68C8", keyword: "#E57373" }); // Doc Ock Gold/Red accents
 
-// 9. Spider
-generateTheme("Spider", "dark", "akyyra-spiderman.json", {
+// 9. Arachnid (formerly Spider)
+generateTheme("Arachnid", "dark", "arachnid.json", {
   bg: "#1A1515", sidebar: "#120E0E", activityBar: "#0D0A0A", statusBar: "#080606", fg: "#E5E0D8", selection: "#3D2727", lineHighlight: "#241818"
 }, { function: "#4DB8B8", string: "#89C9A1", class: "#D48B8B", keyword: "#E25A5A" });
 
-// 10. Dark Knight
-generateTheme("Dark Knight", "dark", "akyyra-batman.json", {
+// 10. The Syndicate (formerly Dark Knight)
+generateTheme("The Syndicate", "dark", "the-syndicate.json", {
   bg: "#17181A", sidebar: "#101112", activityBar: "#0B0B0C", statusBar: "#050506", fg: "#C9CBD0", selection: "#2C2E33", lineHighlight: "#1C1D20"
-}, { function: "#9397A1", string: "#828994", class: "#A7AAB3", keyword: "#E5C07B" });
+}, { function: "#9397A1", string: "#828994", class: "#A7AAB3", keyword: "#FFFFFF" }); // Kingpin White/Slate
 
 console.log("All themes regenerated with Cognitive Minimalism and UI Depth.");

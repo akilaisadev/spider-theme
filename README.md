@@ -31,16 +31,16 @@ Spider Theme Suite isn't just another color scheme—it's an enterprise-grade co
 
 ## 🎨 The Suite (10 Variants)
 
-1. **Spider** *(Flagship Crimson `#E25A5A` & Teal `#4DB8B8` split-complementary design)*
-2. **Night** *(Warm dark gray ergonomic background)*
-3. **Midnight** *(Ultra-dark void environment)*
-4. **Focus (OLED)** *(True `#000000` AMOLED display mode for deep battery savings)*
-5. **Soft** *(Low contrast mode tailored for sensitive eyes)*
-6. **High Contrast** *(Accessible 7:1 contrast mode for maximum legibility)*
-7. **Pastel** *(Desaturated slate tones for a calming aesthetic)*
-8. **Neon Cyber** *(High-intensity synthwave cyber glow)*
-9. **Galaxy** *(Deep space indigo and violet hues)*
-10. **Dark Knight** *(Tactical monolithic gray)*
+1. **Arachnid** *(Flagship Crimson `#E25A5A` & Teal `#4DB8B8` split-complementary design)*
+2. **Symbiote** *(Warm dark gray ergonomic background with teal/purple accents)*
+3. **Absolute Carnage** *(Ultra-dark void environment with crimson tones)*
+4. **Brooklyn Anomaly** *(True `#000000` AMOLED display mode with neon red/blue accents)*
+5. **Phantom Web** *(Low contrast mode tailored for sensitive eyes with pink/cyan accents)*
+6. **Noir Detective** *(Accessible 7:1 contrast mode for maximum legibility)*
+7. **Emerald Menace** *(Desaturated slate tones with goblin green/purple)*
+8. **Year 2099** *(High-intensity synthwave cyber glow)*
+9. **Superior** *(Deep space indigo with gold/red accents)*
+10. **The Syndicate** *(Tactical monolithic gray)*
 
 ---
 

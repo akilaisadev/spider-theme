@@ -38,54 +38,54 @@
   "contributes": {
     "themes": [
       {
-        "label": "Spider",
+        "label": "Arachnid",
         "uiTheme": "vs-dark",
-        "path": "./themes/akyyra-spiderman.json"
+        "path": "./themes/arachnid.json"
       },
       {
-        "label": "Night",
+        "label": "Symbiote",
         "uiTheme": "vs-dark",
-        "path": "./themes/akyyra-night.json"
+        "path": "./themes/symbiote.json"
       },
       {
-        "label": "Midnight",
+        "label": "Absolute Carnage",
         "uiTheme": "vs-dark",
-        "path": "./themes/akyyra-midnight.json"
+        "path": "./themes/absolute-carnage.json"
       },
       {
-        "label": "Focus (OLED)",
+        "label": "Brooklyn Anomaly",
         "uiTheme": "vs-dark",
-        "path": "./themes/akyyra-oled.json"
+        "path": "./themes/brooklyn-anomaly.json"
       },
       {
-        "label": "Soft",
+        "label": "Phantom Web",
         "uiTheme": "vs-dark",
-        "path": "./themes/akyyra-soft.json"
+        "path": "./themes/phantom-web.json"
       },
       {
-        "label": "High Contrast",
+        "label": "Noir Detective",
         "uiTheme": "hc-black",
-        "path": "./themes/akyyra-high-contrast.json"
+        "path": "./themes/noir-detective.json"
       },
       {
-        "label": "Pastel",
+        "label": "Emerald Menace",
         "uiTheme": "vs-dark",
-        "path": "./themes/akyyra-pastel.json"
+        "path": "./themes/emerald-menace.json"
       },
       {
-        "label": "Neon Cyber",
+        "label": "Year 2099",
         "uiTheme": "vs-dark",
-        "path": "./themes/akyyra-neon.json"
+        "path": "./themes/year-2099.json"
       },
       {
-        "label": "Galaxy",
+        "label": "Superior",
         "uiTheme": "vs-dark",
-        "path": "./themes/akyyra-galaxy.json"
+        "path": "./themes/superior.json"
       },
       {
-        "label": "Dark Knight",
+        "label": "The Syndicate",
         "uiTheme": "vs-dark",
-        "path": "./themes/akyyra-batman.json"
+        "path": "./themes/the-syndicate.json"
       }
     ]
   },
