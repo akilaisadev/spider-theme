@@ -45,11 +45,11 @@
       "fontStyle": "italic"
     },
     "selfParameter": {
-      "foreground": "#FFFFFF",
+      "foreground": "#FF6B6B",
       "fontStyle": "italic"
     },
     "clsParameter": {
-      "foreground": "#FFFFFF",
+      "foreground": "#FF6B6B",
       "fontStyle": "italic"
     },
     "variable": "#FFFFFF",
@@ -60,14 +60,14 @@
     "variable.defaultLibrary": "#56B6C2",
     "property": "#FFFFFF",
     "property.readonly": "#E5C07B",
-    "keyword": "#FFFFFF",
+    "keyword": "#FF6B6B",
     "keyword.control": {
-      "foreground": "#FFFFFF",
+      "foreground": "#FF6B6B",
       "fontStyle": "bold"
     },
-    "string": "#E5E5E5",
+    "string": "#EE6C4D",
     "string.escape": {
-      "foreground": "#FFFFFF",
+      "foreground": "#FF6B6B",
       "fontStyle": "bold"
     },
     "number": "#D19A66",
@@ -254,7 +254,7 @@
         "storage.type"
       ],
       "settings": {
-        "foreground": "#FFFFFF"
+        "foreground": "#FF6B6B"
       }
     },
     {
@@ -268,7 +268,7 @@
         "keyword.control.return"
       ],
       "settings": {
-        "foreground": "#FFFFFF",
+        "foreground": "#FF6B6B",
         "fontStyle": "bold"
       }
     },
@@ -281,7 +281,7 @@
         "keyword.control.as"
       ],
       "settings": {
-        "foreground": "#FFFFFF",
+        "foreground": "#FF6B6B",
         "fontStyle": "italic"
       }
     },
@@ -374,7 +374,7 @@
         "variable.parameter.function.language.special.cls"
       ],
       "settings": {
-        "foreground": "#FFFFFF",
+        "foreground": "#FF6B6B",
         "fontStyle": "italic"
       }
     },
@@ -397,7 +397,7 @@
         "string.template"
       ],
       "settings": {
-        "foreground": "#E5E5E5"
+        "foreground": "#EE6C4D"
       }
     },
     {
@@ -407,7 +407,7 @@
         "constant.other.placeholder"
       ],
       "settings": {
-        "foreground": "#FFFFFF",
+        "foreground": "#FF6B6B",
         "fontStyle": "bold"
       }
     },
@@ -456,7 +456,7 @@
         "entity.name.tag.tsx"
       ],
       "settings": {
-        "foreground": "#FFFFFF"
+        "foreground": "#FF6B6B"
       }
     },
     {
@@ -479,7 +479,7 @@
         "entity.other.attribute-name.tsx"
       ],
       "settings": {
-        "foreground": "#98C1D9",
+        "foreground": "#56B6C2",
         "fontStyle": "italic"
       }
     },
@@ -502,7 +502,7 @@
         "support.type.property-name.less"
       ],
       "settings": {
-        "foreground": "#98C1D9"
+        "foreground": "#56B6C2"
       }
     },
     {
@@ -513,7 +513,7 @@
         "support.constant.color"
       ],
       "settings": {
-        "foreground": "#E5E5E5"
+        "foreground": "#EE6C4D"
       }
     },
     {
@@ -609,7 +609,7 @@
         "entity.name.package.go"
       ],
       "settings": {
-        "foreground": "#FFFFFF",
+        "foreground": "#FF6B6B",
         "fontStyle": "italic"
       }
     },
@@ -620,7 +620,7 @@
         "entity.name.tag.yaml"
       ],
       "settings": {
-        "foreground": "#98C1D9"
+        "foreground": "#56B6C2"
       }
     },
     {
@@ -631,7 +631,7 @@
         "keyword.other.sql"
       ],
       "settings": {
-        "foreground": "#FFFFFF",
+        "foreground": "#FF6B6B",
         "fontStyle": "bold"
       }
     },
@@ -651,7 +651,7 @@
         "keyword.other.dockerfile"
       ],
       "settings": {
-        "foreground": "#FFFFFF",
+        "foreground": "#FF6B6B",
         "fontStyle": "bold"
       }
     },
@@ -693,7 +693,7 @@
         "markup.fenced_code.block"
       ],
       "settings": {
-        "foreground": "#E5E5E5"
+        "foreground": "#EE6C4D"
       }
     },
     {

@@ -479,7 +479,7 @@
         "entity.other.attribute-name.tsx"
       ],
       "settings": {
-        "foreground": "#38D9A9",
+        "foreground": "#56B6C2",
         "fontStyle": "italic"
       }
     },
@@ -502,7 +502,7 @@
         "support.type.property-name.less"
       ],
       "settings": {
-        "foreground": "#38D9A9"
+        "foreground": "#56B6C2"
       }
     },
     {
@@ -620,7 +620,7 @@
         "entity.name.tag.yaml"
       ],
       "settings": {
-        "foreground": "#38D9A9"
+        "foreground": "#56B6C2"
       }
     },
     {
