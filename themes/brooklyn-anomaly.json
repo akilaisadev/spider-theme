@@ -153,7 +153,8 @@
     "gitDecoration.deletedResourceForeground": "#E06C75",
     "gitDecoration.untrackedResourceForeground": "#56B6C2",
     "gitDecoration.conflictingResourceForeground": "#E056FD",
-    "gitDecoration.ignoredResourceForeground": "#9EA7B073"
+    "gitDecoration.ignoredResourceForeground": "#9EA7B0B3",
+    "list.deemphasizedForeground": "#9EA7B0B3"
   },
   "tokenColors": [
     {

@@ -189,13 +189,14 @@ function generateTheme(name, type, file, bgColors, overrideSyntax = {}) {
       "terminal.ansiBrightCyan": c.parameter,
       "terminal.ansiBrightWhite": "#FFFFFF",
       
-      // Git Workbench Status
+      // Git Workbench & Tree Status
       "gitDecoration.addedResourceForeground": c.success,
       "gitDecoration.modifiedResourceForeground": c.function,
       "gitDecoration.deletedResourceForeground": c.error,
       "gitDecoration.untrackedResourceForeground": c.info,
       "gitDecoration.conflictingResourceForeground": classSolid,
-      "gitDecoration.ignoredResourceForeground": `${c.comment}73`
+      "gitDecoration.ignoredResourceForeground": `${c.comment}B3`,
+      "list.deemphasizedForeground": `${c.comment}B3`
     },
     tokenColors: [
       // 1. Comments & Documentation
