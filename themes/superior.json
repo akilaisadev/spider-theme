@@ -25,19 +25,19 @@
       "foreground": "#0A9396",
       "fontStyle": "italic"
     },
-    "function": "#C0C0C0",
+    "function": "#3A86FF",
     "function.declaration": {
-      "foreground": "#C0C0C0",
+      "foreground": "#3A86FF",
       "fontStyle": "bold"
     },
-    "function.defaultLibrary": "#C0C0C0",
-    "method": "#C0C0C0",
+    "function.defaultLibrary": "#3A86FF",
+    "method": "#3A86FF",
     "method.declaration": {
-      "foreground": "#C0C0C0",
+      "foreground": "#3A86FF",
       "fontStyle": "bold"
     },
     "macro": {
-      "foreground": "#C0C0C0",
+      "foreground": "#3A86FF",
       "fontStyle": "bold"
     },
     "parameter": {
@@ -86,7 +86,7 @@
     }
   },
   "colors": {
-    "focusBorder": "#C0C0C040",
+    "focusBorder": "#3A86FF40",
     "foreground": "#FDFCDC",
     "widget.shadow": "#00000080",
     "editor.background": "#0F1423",
@@ -96,16 +96,16 @@
     "editor.inactiveSelectionBackground": "#212A4580",
     "editor.selectionHighlightBackground": "#212A45A0",
     "editor.wordHighlightBackground": "#212A45A0",
-    "editor.wordHighlightStrongBackground": "#C0C0C030",
+    "editor.wordHighlightStrongBackground": "#3A86FF30",
     "editor.findMatchBackground": "#E5C07B80",
     "editor.findMatchHighlightBackground": "#E5C07B30",
     "editor.findRangeHighlightBackground": "#E5C07B1A",
-    "editorCursor.foreground": "#C0C0C0",
+    "editorCursor.foreground": "#3A86FF",
     "editorWhitespace.foreground": "#979DAC60",
     "editorIndentGuide.background": "#979DAC40",
     "editorIndentGuide.activeBackground": "#979DAC90",
-    "editorBracketMatch.background": "#C0C0C040",
-    "editorBracketMatch.border": "#C0C0C0A0",
+    "editorBracketMatch.background": "#3A86FF40",
+    "editorBracketMatch.border": "#3A86FFA0",
     "editorLineNumber.foreground": "#979DAC90",
     "editorLineNumber.activeForeground": "#FDFCDC",
     "diffEditor.insertedTextBackground": "#98C3791A",
@@ -118,7 +118,7 @@
     "sideBar.border": "#0A0D17",
     "sideBarSectionHeader.background": "#0A0D17",
     "activityBar.background": "#070A12",
-    "activityBar.foreground": "#C0C0C0",
+    "activityBar.foreground": "#3A86FF",
     "activityBar.inactiveForeground": "#979DAC73",
     "activityBar.border": "#070A12",
     "statusBar.background": "#05070D",
@@ -136,7 +136,7 @@
     "terminal.ansiRed": "#E06C75",
     "terminal.ansiGreen": "#98C379",
     "terminal.ansiYellow": "#E5C07B",
-    "terminal.ansiBlue": "#C0C0C0",
+    "terminal.ansiBlue": "#3A86FF",
     "terminal.ansiMagenta": "#0A9396",
     "terminal.ansiCyan": "#56B6C2",
     "terminal.ansiWhite": "#FDFCDC",
@@ -144,12 +144,12 @@
     "terminal.ansiBrightRed": "#E06C75",
     "terminal.ansiBrightGreen": "#98C379",
     "terminal.ansiBrightYellow": "#E5C07B",
-    "terminal.ansiBrightBlue": "#C0C0C0",
+    "terminal.ansiBrightBlue": "#3A86FF",
     "terminal.ansiBrightMagenta": "#0A9396",
     "terminal.ansiBrightCyan": "#56B6C2",
     "terminal.ansiBrightWhite": "#FFFFFF",
     "gitDecoration.addedResourceForeground": "#98C379",
-    "gitDecoration.modifiedResourceForeground": "#C0C0C0",
+    "gitDecoration.modifiedResourceForeground": "#3A86FF",
     "gitDecoration.deletedResourceForeground": "#E06C75",
     "gitDecoration.untrackedResourceForeground": "#56B6C2",
     "gitDecoration.conflictingResourceForeground": "#0A9396",
@@ -293,7 +293,7 @@
         "support.function"
       ],
       "settings": {
-        "foreground": "#C0C0C0"
+        "foreground": "#3A86FF"
       }
     },
     {
@@ -303,7 +303,7 @@
         "meta.function-call.generic"
       ],
       "settings": {
-        "foreground": "#C0C0C0"
+        "foreground": "#3A86FF"
       }
     },
     {
@@ -479,7 +479,7 @@
         "entity.other.attribute-name.tsx"
       ],
       "settings": {
-        "foreground": "#0A9396",
+        "foreground": "#56B6C2",
         "fontStyle": "italic"
       }
     },
@@ -502,7 +502,7 @@
         "support.type.property-name.less"
       ],
       "settings": {
-        "foreground": "#0A9396"
+        "foreground": "#56B6C2"
       }
     },
     {
@@ -587,7 +587,7 @@
         "entity.name.function.macro.rust"
       ],
       "settings": {
-        "foreground": "#C0C0C0",
+        "foreground": "#3A86FF",
         "fontStyle": "bold"
       }
     },
@@ -620,7 +620,7 @@
         "entity.name.tag.yaml"
       ],
       "settings": {
-        "foreground": "#0A9396"
+        "foreground": "#56B6C2"
       }
     },
     {
@@ -672,7 +672,7 @@
         "entity.name.section.markdown"
       ],
       "settings": {
-        "foreground": "#C0C0C0",
+        "foreground": "#3A86FF",
         "fontStyle": "bold"
       }
     },

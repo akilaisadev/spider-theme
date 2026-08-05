@@ -3,26 +3,26 @@
   "type": "dark",
   "semanticHighlighting": true,
   "semanticTokenColors": {
-    "class": "#00FFFF",
+    "class": "#E056FD",
     "class.declaration": {
-      "foreground": "#00FFFF",
+      "foreground": "#E056FD",
       "fontStyle": "bold"
     },
-    "struct": "#00FFFF",
+    "struct": "#E056FD",
     "enum": "#E5C07B",
     "enumMember": "#D19A66",
-    "type": "#00FFFF",
+    "type": "#E056FD",
     "type.declaration": {
-      "foreground": "#00FFFF",
+      "foreground": "#E056FD",
       "fontStyle": "bold"
     },
     "type.defaultLibrary": "#56B6C2",
     "typeParameter": {
-      "foreground": "#00FFFF",
+      "foreground": "#E056FD",
       "fontStyle": "italic"
     },
     "interface": {
-      "foreground": "#00FFFF",
+      "foreground": "#E056FD",
       "fontStyle": "italic"
     },
     "function": "#00FFFF",
@@ -137,7 +137,7 @@
     "terminal.ansiGreen": "#98C379",
     "terminal.ansiYellow": "#E5C07B",
     "terminal.ansiBlue": "#00FFFF",
-    "terminal.ansiMagenta": "#00FFFF",
+    "terminal.ansiMagenta": "#E056FD",
     "terminal.ansiCyan": "#56B6C2",
     "terminal.ansiWhite": "#E0E1E3",
     "terminal.ansiBrightBlack": "#8C9BB0",
@@ -145,14 +145,14 @@
     "terminal.ansiBrightGreen": "#98C379",
     "terminal.ansiBrightYellow": "#E5C07B",
     "terminal.ansiBrightBlue": "#00FFFF",
-    "terminal.ansiBrightMagenta": "#00FFFF",
+    "terminal.ansiBrightMagenta": "#E056FD",
     "terminal.ansiBrightCyan": "#56B6C2",
     "terminal.ansiBrightWhite": "#FFFFFF",
     "gitDecoration.addedResourceForeground": "#98C379",
     "gitDecoration.modifiedResourceForeground": "#00FFFF",
     "gitDecoration.deletedResourceForeground": "#E06C75",
     "gitDecoration.untrackedResourceForeground": "#56B6C2",
-    "gitDecoration.conflictingResourceForeground": "#00FFFF",
+    "gitDecoration.conflictingResourceForeground": "#E056FD",
     "gitDecoration.ignoredResourceForeground": "#8C9BB073"
   },
   "tokenColors": [
@@ -317,7 +317,7 @@
         "entity.name.type.enum"
       ],
       "settings": {
-        "foreground": "#00FFFF"
+        "foreground": "#E056FD"
       }
     },
     {
@@ -327,7 +327,7 @@
         "entity.name.type.trait"
       ],
       "settings": {
-        "foreground": "#00FFFF",
+        "foreground": "#E056FD",
         "fontStyle": "italic"
       }
     },
@@ -466,7 +466,7 @@
         "entity.name.tag.custom"
       ],
       "settings": {
-        "foreground": "#00FFFF",
+        "foreground": "#E056FD",
         "fontStyle": "bold"
       }
     },
@@ -479,7 +479,7 @@
         "entity.other.attribute-name.tsx"
       ],
       "settings": {
-        "foreground": "#00FFFF",
+        "foreground": "#4CC9F0",
         "fontStyle": "italic"
       }
     },
@@ -502,7 +502,7 @@
         "support.type.property-name.less"
       ],
       "settings": {
-        "foreground": "#00FFFF"
+        "foreground": "#4CC9F0"
       }
     },
     {
@@ -523,7 +523,7 @@
         "entity.other.attribute-name.id.css"
       ],
       "settings": {
-        "foreground": "#00FFFF",
+        "foreground": "#E056FD",
         "fontStyle": "bold"
       }
     },
@@ -620,7 +620,7 @@
         "entity.name.tag.yaml"
       ],
       "settings": {
-        "foreground": "#00FFFF"
+        "foreground": "#4CC9F0"
       }
     },
     {
@@ -641,7 +641,7 @@
         "entity.name.type.model.prisma"
       ],
       "settings": {
-        "foreground": "#00FFFF",
+        "foreground": "#E056FD",
         "fontStyle": "bold"
       }
     },
@@ -682,7 +682,7 @@
         "markup.quote"
       ],
       "settings": {
-        "foreground": "#00FFFF",
+        "foreground": "#E056FD",
         "fontStyle": "italic"
       }
     },

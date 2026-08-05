@@ -3,26 +3,26 @@
   "type": "hc-black",
   "semanticHighlighting": true,
   "semanticTokenColors": {
-    "class": "#CED4DA",
+    "class": "#93C5FD",
     "class.declaration": {
-      "foreground": "#CED4DA",
+      "foreground": "#93C5FD",
       "fontStyle": "bold"
     },
-    "struct": "#CED4DA",
+    "struct": "#93C5FD",
     "enum": "#E5C07B",
     "enumMember": "#D19A66",
-    "type": "#CED4DA",
+    "type": "#93C5FD",
     "type.declaration": {
-      "foreground": "#CED4DA",
+      "foreground": "#93C5FD",
       "fontStyle": "bold"
     },
     "type.defaultLibrary": "#56B6C2",
     "typeParameter": {
-      "foreground": "#CED4DA",
+      "foreground": "#93C5FD",
       "fontStyle": "italic"
     },
     "interface": {
-      "foreground": "#CED4DA",
+      "foreground": "#93C5FD",
       "fontStyle": "italic"
     },
     "function": "#F8F9FA",
@@ -137,7 +137,7 @@
     "terminal.ansiGreen": "#98C379",
     "terminal.ansiYellow": "#E5C07B",
     "terminal.ansiBlue": "#F8F9FA",
-    "terminal.ansiMagenta": "#CED4DA",
+    "terminal.ansiMagenta": "#93C5FD",
     "terminal.ansiCyan": "#56B6C2",
     "terminal.ansiWhite": "#E9ECEF",
     "terminal.ansiBrightBlack": "#8C96A0",
@@ -145,14 +145,14 @@
     "terminal.ansiBrightGreen": "#98C379",
     "terminal.ansiBrightYellow": "#E5C07B",
     "terminal.ansiBrightBlue": "#F8F9FA",
-    "terminal.ansiBrightMagenta": "#CED4DA",
+    "terminal.ansiBrightMagenta": "#93C5FD",
     "terminal.ansiBrightCyan": "#56B6C2",
     "terminal.ansiBrightWhite": "#FFFFFF",
     "gitDecoration.addedResourceForeground": "#98C379",
     "gitDecoration.modifiedResourceForeground": "#F8F9FA",
     "gitDecoration.deletedResourceForeground": "#E06C75",
     "gitDecoration.untrackedResourceForeground": "#56B6C2",
-    "gitDecoration.conflictingResourceForeground": "#CED4DA",
+    "gitDecoration.conflictingResourceForeground": "#93C5FD",
     "gitDecoration.ignoredResourceForeground": "#8C96A073"
   },
   "tokenColors": [
@@ -317,7 +317,7 @@
         "entity.name.type.enum"
       ],
       "settings": {
-        "foreground": "#CED4DA"
+        "foreground": "#93C5FD"
       }
     },
     {
@@ -327,7 +327,7 @@
         "entity.name.type.trait"
       ],
       "settings": {
-        "foreground": "#CED4DA",
+        "foreground": "#93C5FD",
         "fontStyle": "italic"
       }
     },
@@ -466,7 +466,7 @@
         "entity.name.tag.custom"
       ],
       "settings": {
-        "foreground": "#CED4DA",
+        "foreground": "#93C5FD",
         "fontStyle": "bold"
       }
     },
@@ -523,7 +523,7 @@
         "entity.other.attribute-name.id.css"
       ],
       "settings": {
-        "foreground": "#CED4DA",
+        "foreground": "#93C5FD",
         "fontStyle": "bold"
       }
     },
@@ -641,7 +641,7 @@
         "entity.name.type.model.prisma"
       ],
       "settings": {
-        "foreground": "#CED4DA",
+        "foreground": "#93C5FD",
         "fontStyle": "bold"
       }
     },
@@ -682,7 +682,7 @@
         "markup.quote"
       ],
       "settings": {
-        "foreground": "#CED4DA",
+        "foreground": "#93C5FD",
         "fontStyle": "italic"
       }
     },
