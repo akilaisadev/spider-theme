@@ -63,12 +63,12 @@ function generateTheme(name, type, file, bgColors, overrideSyntax = {}) {
   const lineHighlight = bgColors.lineHighlight;
   
   // Base Opacity Adjustments
-  const fg90 = fg + opacities.c90;
-  const fg85 = fg + opacities.c85;
-  const kw70 = c.keyword + opacities.c70;
-  const op55 = c.operator + opacities.c55;
-  const punc85 = c.operator + opacities.c85; // Bumping from 30% to 85% opacity to fix invisible commas/brackets
-  const class95 = c.class + opacities.c95;
+  const fg90 = fg; // Full opacity for crisp font rendering and high contrast
+  const fg85 = fg;
+  const kw70 = c.keyword; // Full opacity for keywords to maintain WCAG contrast
+  const op55 = c.operator + opacities.c85; // Bumping operator opacity from 55% to 85% for clear punctuation
+  const punc85 = c.operator + opacities.c85; 
+  const class95 = c.class;
 
   const themeObj = {
     name: name,
@@ -82,7 +82,7 @@ function generateTheme(name, type, file, bgColors, overrideSyntax = {}) {
       "enum": c.enum,
       "function": c.function,
       "method": c.function,
-      "parameter": { "foreground": c.parameter + opacities.c85, "fontStyle": "italic" },
+      "parameter": { "foreground": c.parameter, "fontStyle": "italic" },
       "variable": fg90,
       "property": fg85,
       "keyword": kw70,
@@ -257,7 +257,7 @@ function generateTheme(name, type, file, bgColors, overrideSyntax = {}) {
       {
         "name": "Markdown Blockquote",
         "scope": ["markup.quote"],
-        "settings": { "foreground": c.class + opacities.c85, "fontStyle": "italic" }
+        "settings": { "foreground": c.class, "fontStyle": "italic" }
       },
       // Language Micro-optimizations
       {
@@ -289,17 +289,17 @@ function generateTheme(name, type, file, bgColors, overrideSyntax = {}) {
 // 1. Symbiote
 generateTheme("Symbiote", "dark", "symbiote.json", {
   bg: "#1A1C23", sidebar: "#16181E", activityBar: "#111317", statusBar: "#0E0F12", fg: "#E5E5E5", selection: "#2E3440", lineHighlight: "#21242E"
-}, { function: "#00F5D4", keyword: "#F15BB5", class: "#F15BB5", string: "#89FC00", variable: "#E5E5E5", comment: "#4A4E69" });
+}, { function: "#00F5D4", keyword: "#F15BB5", class: "#F15BB5", string: "#89FC00", variable: "#E5E5E5", comment: "#8D93AB" });
 
 // 2. Absolute Carnage
 generateTheme("Absolute Carnage", "dark", "absolute-carnage.json", {
   bg: "#111217", sidebar: "#0E0E12", activityBar: "#0A0B0E", statusBar: "#08090C", fg: "#CED4DA", selection: "#20222B", lineHighlight: "#16181F"
-}, { function: "#FFFFFF", keyword: "#D00000", class: "#9D0208", string: "#E85D04", variable: "#CED4DA", comment: "#6C5B7B" });
+}, { function: "#FFFFFF", keyword: "#FF4D4D", class: "#E63946", string: "#E85D04", variable: "#CED4DA", comment: "#A288A6" });
 
 // 3. Brooklyn Anomaly
 generateTheme("Brooklyn Anomaly", "dark", "brooklyn-anomaly.json", {
   bg: "#000000", sidebar: "#050505", activityBar: "#080808", statusBar: "#0A0A0A", fg: "#FFFFFF", selection: "#1A1A1A", lineHighlight: "#0F0F0F"
-}, { function: "#4CC9F0", keyword: "#F72585", class: "#B5179E", string: "#FEE440", variable: "#FFFFFF", comment: "#6C757D" });
+}, { function: "#4CC9F0", keyword: "#F72585", class: "#E056FD", string: "#FEE440", variable: "#FFFFFF", comment: "#9EA7B0" });
 
 // 4. Phantom Web
 generateTheme("Phantom Web", "dark", "phantom-web.json", {
@@ -309,31 +309,31 @@ generateTheme("Phantom Web", "dark", "phantom-web.json", {
 // 5. Noir Detective
 generateTheme("Noir Detective", "hc-black", "noir-detective.json", {
   bg: "#000000", sidebar: "#000000", activityBar: "#000000", statusBar: "#000000", fg: "#E9ECEF", selection: "#333333", lineHighlight: "#111111"
-}, { function: "#F8F9FA", keyword: "#ADB5BD", class: "#CED4DA", string: "#D4A373", variable: "#E9ECEF", comment: "#495057" });
+}, { function: "#F8F9FA", keyword: "#ADB5BD", class: "#CED4DA", string: "#D4A373", variable: "#E9ECEF", comment: "#8C96A0" });
 
 // 6. Emerald Menace
 generateTheme("Emerald Menace", "dark", "emerald-menace.json", {
   bg: "#2C313C", sidebar: "#252932", activityBar: "#20232A", statusBar: "#1B1E24", fg: "#F8F9FA", selection: "#404859", lineHighlight: "#363C49"
-}, { function: "#7209B7", keyword: "#38B000", class: "#4361EE", string: "#F48C06", variable: "#F8F9FA", comment: "#5C677D" });
+}, { function: "#38D9A9", keyword: "#52B788", class: "#7088FF", string: "#F48C06", variable: "#F8F9FA", comment: "#9AA5B9" });
 
 // 7. Year 2099
 generateTheme("Year 2099", "dark", "year-2099.json", {
   bg: "#1E1032", sidebar: "#150A24", activityBar: "#0F071A", statusBar: "#0A0412", fg: "#E0E1E3", selection: "#3D2466", lineHighlight: "#2B1747"
-}, { function: "#00FFFF", keyword: "#FF003C", class: "#00FFFF", string: "#FAED26", variable: "#E0E1E3", comment: "#465362" });
+}, { function: "#00FFFF", keyword: "#FF3366", class: "#00FFFF", string: "#FAED26", variable: "#E0E1E3", comment: "#8C9BB0" });
 
 // 8. Superior
 generateTheme("Superior", "dark", "superior.json", {
   bg: "#0F1423", sidebar: "#0A0D17", activityBar: "#070A12", statusBar: "#05070D", fg: "#FDFCDC", selection: "#212A45", lineHighlight: "#161D33"
-}, { function: "#C0C0C0", keyword: "#9B2226", class: "#0A9396", string: "#EE9B00", variable: "#FDFCDC", comment: "#979DAC" });
+}, { function: "#C0C0C0", keyword: "#FF4D5D", class: "#0A9396", string: "#EE9B00", variable: "#FDFCDC", comment: "#979DAC" });
 
 // 9. Arachnid
 generateTheme("Arachnid", "dark", "arachnid.json", {
   bg: "#1A1515", sidebar: "#120E0E", activityBar: "#0D0A0A", statusBar: "#080606", fg: "#F8F9FA", selection: "#3D2727", lineHighlight: "#241818"
-}, { function: "#00B4D8", keyword: "#E63946", class: "#E63946", string: "#E9C46A", variable: "#F8F9FA", comment: "#7A8499" });
+}, { function: "#00B4D8", keyword: "#E63946", class: "#E63946", string: "#E9C46A", variable: "#F8F9FA", comment: "#8E98AD" });
 
 // 10. The Syndicate
 generateTheme("The Syndicate", "dark", "the-syndicate.json", {
   bg: "#17181A", sidebar: "#101112", activityBar: "#0B0B0C", statusBar: "#050506", fg: "#FFFFFF", selection: "#2C2E33", lineHighlight: "#1C1D20"
-}, { function: "#E0FBFC", keyword: "#FFFFFF", class: "#98C1D9", string: "#E5E5E5", variable: "#FFFFFF", comment: "#3D5A80" });
+}, { function: "#E0FBFC", keyword: "#FFFFFF", class: "#98C1D9", string: "#E5E5E5", variable: "#FFFFFF", comment: "#7A9CC6" });
 
 console.log("All 10 uniquely engineered psychological themes generated successfully.");
